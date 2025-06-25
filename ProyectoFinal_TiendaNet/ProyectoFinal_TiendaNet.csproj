@@ -1,0 +1,93 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\Controller\" />
+    <Folder Include="Auth\Services\" />
+    <Folder Include="Auth\Repository\" />
+    <Folder Include="Carrito\Controller\" />
+    <Folder Include="Carrito\Model\Dto\" />
+    <Folder Include="Carrito\Repository\" />
+    <Folder Include="Carrito\Services\" />
+    <Folder Include="CarritoProducto\Controller\" />
+    <Folder Include="CarritoProducto\Model\Dto\" />
+    <Folder Include="CarritoProducto\Repository\" />
+    <Folder Include="CarritoProducto\Services\" />
+    <Folder Include="CategoriaProducto\Controller\" />
+    <Folder Include="CategoriaProducto\Model\Dto\" />
+    <Folder Include="CategoriaProducto\Repository\" />
+    <Folder Include="CategoriaProducto\Services\" />
+    <Folder Include="CategoriaTienda\Controller\" />
+    <Folder Include="CategoriaTienda\Model\Dto\" />
+    <Folder Include="CategoriaTienda\Repository\" />
+    <Folder Include="CategoriaTienda\Services\" />
+    <Folder Include="Admin\Controller\" />
+    <Folder Include="Admin\Model\Dto\" />
+    <Folder Include="Admin\Repository\" />
+    <Folder Include="Admin\Services\" />
+    <Folder Include="Config\" />
+    <Folder Include="Rol\Controller\" />
+    <Folder Include="Rol\Model\Dto\" />
+    <Folder Include="Rol\Repository\" />
+    <Folder Include="Rol\Services\" />
+    <Folder Include="Plantilla\Controller\" />
+    <Folder Include="Plantilla\Model\Dto\" />
+    <Folder Include="Plantilla\Repository\" />
+    <Folder Include="Plantilla\Services\" />
+    <Folder Include="MetodoPago\Controller\" />
+    <Folder Include="MetodoPago\Model\Dto\" />
+    <Folder Include="MetodoPago\Repository\" />
+    <Folder Include="MetodoPago\Services\" />
+    <Folder Include="Producto\Controller\" />
+    <Folder Include="Producto\Model\Dto\" />
+    <Folder Include="Producto\Repository\" />
+    <Folder Include="Producto\Services\" />
+    <Folder Include="Personalizacion\Controller\" />
+    <Folder Include="Personalizacion\Model\Dto\" />
+    <Folder Include="Personalizacion\Repository\" />
+    <Folder Include="Personalizacion\Services\" />
+    <Folder Include="Tienda\Controller\" />
+    <Folder Include="Tienda\Model\Dto\" />
+    <Folder Include="Tienda\Repository\" />
+    <Folder Include="Tienda\Services\" />
+    <Folder Include="DetalleCompra\Controller\" />
+    <Folder Include="DetalleCompra\Model\Dto\" />
+    <Folder Include="DetalleCompra\Repository\" />
+    <Folder Include="DetalleCompra\Services\" />
+    <Folder Include="Compra\Controller\" />
+    <Folder Include="Compra\Model\Dto\" />
+    <Folder Include="Compra\Repository\" />
+    <Folder Include="Compra\Services\" />
+    <Folder Include="Utils\Filters\" />
+    <Folder Include="Utils\Exceptions\" />
+    <Folder Include="Utils\Encoder\" />
+    <Folder Include="Vendedor\Controller\" />
+    <Folder Include="Vendedor\Model\Dto\" />
+    <Folder Include="Vendedor\Repository\" />
+    <Folder Include="Vendedor\Services\" />
+    <Folder Include="Comprador\Controller\" />
+    <Folder Include="Comprador\Model\Dto\" />
+    <Folder Include="Comprador\Repository\" />
+    <Folder Include="Comprador\Services\" />
+  </ItemGroup>
+
+</Project>

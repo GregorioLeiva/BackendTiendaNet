@@ -2,6 +2,7 @@
 using System.Linq.Expressions;
 using System.Linq;
 using Microsoft.EntityFrameworkCore.Query;
+using ProyectoFinal_TiendaNet.Config;
 
 namespace ProyectoFinal_TiendaNet.Utils.Repository
 {
@@ -18,44 +19,76 @@ namespace ProyectoFinal_TiendaNet.Utils.Repository
 	}
 	public class Repository<T> : IRepository<T> where T : class
 	{
-		public Task Add(T entity)
+		private readonly ApplicationDbContext _db;
+		internal DbSet<T> dbSet;
+
+		public Repository(ApplicationDbContext db)
 		{
-			throw new NotImplementedException();
+			_db = db;
+			dbSet = _db.Set<T>();
+		}
+		public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null)
+		{
+			IQueryable<T> query = dbSet;
+
+			if (filter != null)
+				query = query.Where(filter);
+
+			if (include != null)
+				query = include(query);
+
+			return await query.ToListAsync();
 		}
 
-		public Task Delete(T entity)
+		public async Task SaveChangesAsync()
 		{
-			throw new NotImplementedException();
+			await _db.SaveChangesAsync();
 		}
 
-		public Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null)
+		public async Task<T> GetOne(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
 		{
-			throw new NotImplementedException();
+			IQueryable<T> query = dbSet;
+
+			if (filter != null)
+				query = query.Where(filter);
+
+			if (!string.IsNullOrEmpty(includeProperties))
+			{
+				foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+				{
+					query = query.Include(includeProperty);
+				}
+			}
+
+			return await query.FirstOrDefaultAsync();
+		}
+		public async Task Add(T entity)
+		{
+			await dbSet.AddAsync(entity);
+			await Save();
 		}
 
-		public Task<T> GetFirstOrDefault(Expression<Func<T, bool>> predicate)
+		public async Task<T> Update(T entity)
 		{
-			throw new NotImplementedException();
+			dbSet.Update(entity);
+			await Save();
+			return entity;
 		}
 
-		public Task<T> GetOne(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
+		public async Task Delete(T entity)
 		{
-			throw new NotImplementedException();
+			dbSet.Remove(entity);
+			await Save();
 		}
 
-		public Task Save()
+		public async Task Save()
 		{
-			throw new NotImplementedException();
+			await _db.SaveChangesAsync();
 		}
 
-		public Task SaveChangesAsync()
+		public async Task<T> GetFirstOrDefault(Expression<Func<T, bool>> predicate)
 		{
-			throw new NotImplementedException();
-		}
-
-		public Task<T> Update(T entity)
-		{
-			throw new NotImplementedException();
+			return await dbSet.FirstOrDefaultAsync(predicate);
 		}
 	}
 }

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ProyectoFinal_TiendaNet.User.Model
+namespace ProyectoFinal_TiendaNet.Usuario.Model
 {
     public class Usuario
     {

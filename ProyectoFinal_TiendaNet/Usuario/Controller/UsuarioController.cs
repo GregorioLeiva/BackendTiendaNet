@@ -33,6 +33,109 @@ namespace ProyectoFinal_TiendaNet.Usuario.Controller
 			}
 		}
 
+		[HttpGet("{id}")]
+		//[Authorize(Roles = $"{ROLES.ADMIN}, {ROLES.MOD}")]
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status500InternalServerError)]
+		public async Task<ActionResult<UsuarioDTO>> Get(int id)
+		{
+			try
+			{
+				var user = await _usuarioServices.GetOneById(id);
+				return Ok(user);
+			}
+			catch (CustomHttpException ex)
+			{
+				return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
+			}
+		}
+
+		[HttpPost]
+		[ProducesResponseType(StatusCodes.Status201Created)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
+		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status500InternalServerError)]
+		public async Task<ActionResult<Usuario.Model.Usuario>> Post([FromBody] CreateUsuarioDTO createUserDto)
+		{
+			try
+			{
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(ModelState);
+				}
+				var user = await _usuarioServices.CreateOne(createUserDto);
+				return Created(nameof(Post), user);
+
+			}
+			catch (CustomHttpException ex)
+			{
+				return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
+			}
+		}
+
+		[HttpPut("{id}")]
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
+		[ProducesResponseType(StatusCodes.Status400BadRequest)]
+		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status500InternalServerError)]
+		public async Task<ActionResult<Usuario.Model.Usuario>> Put(int id, [FromBody] UpdateUsuarioDTO updateUserDto)
+		{
+			try
+			{
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(ModelState);
+				}
+				var user = await _usuarioServices.UpdateOneById(id, updateUserDto);
+				return Ok(user);
+
+			}
+			catch (CustomHttpException ex)
+			{
+				return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
+			}
+		}
+
+		[HttpDelete("{id}")]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status200OK)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status500InternalServerError)]
+		[ProducesResponseType(StatusCodes.Status404NotFound)]
+		[ProducesResponseType(StatusCodes.Status401Unauthorized)]
+		[ProducesResponseType(typeof(CustomMessage), StatusCodes.Status404NotFound)]
+		public async Task<ActionResult> Delete(int id)
+		{
+			try
+			{
+				await _usuarioServices.DeleteOneById(id);
+				return Ok(new CustomMessage($"El Usuario con el Id = {id} fue eliminado!"));
+
+			}
+			catch (CustomHttpException ex)
+			{
+				return StatusCode((int)ex.StatusCode, new CustomMessage(ex.Message));
+			}
+			catch (Exception ex)
+			{
+				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
+			}
+		}
+
 		/*Aca tengo un ejemplo de datos*/
 		[HttpGet("fake")]
 		public IActionResult GetUsuariosFake()

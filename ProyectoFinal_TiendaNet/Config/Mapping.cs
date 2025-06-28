@@ -19,6 +19,22 @@ namespace ProyectoFinal_TiendaNet.Config
 			// Usuarios
 			CreateMap<Usuario.Model.Usuario, Usuario.Model.Dto.UsuarioDTO>().ReverseMap();
 			CreateMap<Usuario.Model.Usuario, Usuario.Model.Dto.UsuariosDTO>().ReverseMap();
+			CreateMap<Usuario.Model.Usuario, Usuario.Model.Dto.CreateUsuarioDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
+			//Carrito
+			//CarritoProducto
+			//CategoriaProducto
+			//CategoriaTienda
+			//Compra
+			//Comprador
+			//DetalleCompra
+			//MetodoPago
+			//Personalizacion
+			//Plantilla
+			//Producto
+			//Tienda
+			//Vendedor
 		}
 	}
 }

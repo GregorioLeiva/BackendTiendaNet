@@ -31,11 +31,16 @@ namespace ProyectoFinal_TiendaNet.Usuario.Services
 			}
 			return usuario;
 		}
-		public async Task<UsuariosDTO> GetAll()
+
+		public async Task<Usuario.Model.Usuario> GetOneById(int id)
+		{
+			var usuario = await GetOneByIdOrException(id);
+			return _mapper.Map<Usuario.Model.Usuario>(usuario);
+		}
+		public async Task<List<UsuariosDTO>> GetAll()
 		{
 			var usuarios = await _usuariorepository.GetAll();
-			//return _mapper.Map<List<UsuariosDTO>>(usuarios); //Me tira error con el List
-			return _mapper.Map<UsuariosDTO>(usuarios); //Con esto no me tira error
+			return _mapper.Map<List<UsuariosDTO>>(usuarios);
 		}
 
 		public async Task<Usuario.Model.Usuario> CreateOne(CreateUsuarioDTO createUserDto)

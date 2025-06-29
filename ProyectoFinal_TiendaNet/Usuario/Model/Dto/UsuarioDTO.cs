@@ -7,6 +7,8 @@
 		public string Apellido { get; set; } = null!;
 		public string Email { get; set; } = null!;
 		public DateTime FechaRegistro { get; set; }
-		public string Rol { get; set; } = null!;
+
+		public int RolId { get; set; }
+		public Rol.Model.Rol Rol { get; set; } = null!;
 	}
 }

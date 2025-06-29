@@ -47,6 +47,8 @@ namespace ProyectoFinal_TiendaNet.Usuario.Services
 		{
 			var user = _mapper.Map<Usuario.Model.Usuario>(createUserDto);
 
+			user.FechaRegistro = DateTime.UtcNow;
+
 			// Hasheo de la contraseña del usuario
 			user.Contraseña = _encoderServices.Encode(user.Contraseña);
 

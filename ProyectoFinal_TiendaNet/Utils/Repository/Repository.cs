@@ -65,8 +65,9 @@ namespace ProyectoFinal_TiendaNet.Utils.Repository
 		public async Task Add(T entity)
 		{
 			await dbSet.AddAsync(entity);
-			await Save();
+			await _db.SaveChangesAsync();
 		}
+
 
 		public async Task<T> Update(T entity)
 		{

@@ -280,15 +280,5 @@
         "StatusCode": 401
       }
     ]
-  },
-  {
-    "ContainingType": "ProyectoFinal_TiendaNet.Usuario.Controller.UsuarioController",
-    "Method": "GetUsuariosFake",
-    "RelativePath": "api/usuario/fake",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]

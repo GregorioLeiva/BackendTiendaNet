@@ -80,8 +80,10 @@ namespace ProyectoFinal_TiendaNet.Usuario.Controller
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
+				return StatusCode(StatusCodes.Status500InternalServerError,
+					new CustomMessage($"Error: {ex.Message} - Inner: {ex.InnerException?.Message}"));
 			}
+
 		}
 
 		[HttpPut("{id}")]
@@ -135,51 +137,5 @@ namespace ProyectoFinal_TiendaNet.Usuario.Controller
 				return StatusCode(StatusCodes.Status500InternalServerError, new CustomMessage(ex.Message));
 			}
 		}
-
-		/*Aca tengo un ejemplo de datos*/
-		[HttpGet("fake")]
-		public IActionResult GetUsuariosFake()
-		{
-			var usuarios = new List<Usuario.Model.Usuario>
-			{
-				new Usuario.Model.Usuario
-				{
-					Id = 1,
-					Nombre = "Gregorio",
-					Apellido = "Leiva",
-					Email = "gleiva@frsn.utn.edu.ar",
-					Contraseña = "12345678",
-					Username = "gleiva",
-					FechaRegistro = DateTime.Now,
-					Rol = "Administrador"
-				},
-				new Usuario.Model.Usuario
-				{
-					Id = 2,
-					Nombre = "Gregorio",
-					Apellido = "Leiva",
-					Email = "gleiva@frsn.utn.edu.ar",
-					Contraseña = "12345678",
-					Username = "gregorio",
-					FechaRegistro = DateTime.Now,
-					Rol = "Vendedor"
-				},
-				new Usuario.Model.Usuario
-				{
-					Id = 3,
-					Nombre = "Gregorio",
-					Apellido = "Leiva",
-					Email = "gleiva@frsn.utn.edu.ar",
-					Contraseña = "12345678",
-					Username = "goyo",
-					FechaRegistro = DateTime.Now,
-					Rol = "Comprador"
-				}
-			};
-
-			return Ok(usuarios);
-		}
-		/*Aca finaliza los datos falsos*/
-
 	}
 }

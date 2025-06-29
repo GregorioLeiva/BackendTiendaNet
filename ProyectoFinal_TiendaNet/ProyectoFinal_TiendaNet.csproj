@@ -46,8 +46,6 @@
     <Folder Include="Admin\Services\" />
     <Folder Include="Rol\Controller\" />
     <Folder Include="Rol\Model\Dto\" />
-    <Folder Include="Rol\Repository\" />
-    <Folder Include="Rol\Services\" />
     <Folder Include="Plantilla\Controller\" />
     <Folder Include="Plantilla\Model\Dto\" />
     <Folder Include="Plantilla\Repository\" />

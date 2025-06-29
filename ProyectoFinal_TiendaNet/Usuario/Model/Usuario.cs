@@ -14,6 +14,7 @@ namespace ProyectoFinal_TiendaNet.Usuario.Model
 
 		public string Apellido { get; set; }
 
+		[EmailAddress]
 		public string Email { get; set; }
 
 		[Required]
@@ -24,8 +25,10 @@ namespace ProyectoFinal_TiendaNet.Usuario.Model
 
 		public DateTime FechaRegistro { get; set; }
 
+		public int RolId { get; set; }
+
 		//Relacion con tabla de Rol
-		public string Rol { get; set; }
+		public Rol.Model.Rol Rol { get; set; } = null!;
 
 	}
 }

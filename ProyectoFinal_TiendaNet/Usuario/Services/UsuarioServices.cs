@@ -5,6 +5,7 @@ using ProyectoFinal_TiendaNet.Utils.Encoder;
 using ProyectoFinal_TiendaNet.Utils.Exceptions;
 using System.Net;
 using ProyectoFinal_TiendaNet.Usuario.Model.Dto;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProyectoFinal_TiendaNet.Usuario.Services
 {
@@ -24,7 +25,7 @@ namespace ProyectoFinal_TiendaNet.Usuario.Services
 
 		private async Task<Usuario.Model.Usuario> GetOneByIdOrException(int id)
 		{
-			var usuario = await _usuariorepository.GetOne(x => x.Id == id);
+			var usuario = await _usuariorepository.GetOne(c => c.Id == id, "Rol");
 			if (usuario == null)
 			{
 				throw new CustomHttpException($"No se encontro el usuario con Id = {id}", HttpStatusCode.NotFound);
@@ -39,7 +40,8 @@ namespace ProyectoFinal_TiendaNet.Usuario.Services
 		}
 		public async Task<List<UsuariosDTO>> GetAll()
 		{
-			var usuarios = await _usuariorepository.GetAll();
+			var usuarios = await _usuariorepository.GetAll(
+				include: query => query.Include(u => u.Rol));
 			return _mapper.Map<List<UsuariosDTO>>(usuarios);
 		}
 

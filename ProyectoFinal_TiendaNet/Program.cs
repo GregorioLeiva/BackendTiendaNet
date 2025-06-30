@@ -3,10 +3,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProyectoFinal_TiendaNet.Comprador.Repository;
 using ProyectoFinal_TiendaNet.Config;
+using ProyectoFinal_TiendaNet.Rol.Repository;
 using ProyectoFinal_TiendaNet.Usuario.Repository;
 using ProyectoFinal_TiendaNet.Utils.Encoder;
 using ProyectoFinal_TiendaNet.Utils.Filters;
+using ProyectoFinal_TiendaNet.Vendedor.Repository;
 using System.Text;
 
 namespace ProyectoFinal_TiendaNet
@@ -46,9 +49,15 @@ namespace ProyectoFinal_TiendaNet
 			// Services: Agregamos los servicios al scope para utilizar Inyección de Depndencias.
 			builder.Services.AddScoped<IEncoderServices, EncoderServices>();
 			builder.Services.AddScoped<Usuario.Services.UsuarioServices>();
+			builder.Services.AddScoped<Rol.Services.RolServices>();
+			builder.Services.AddScoped<Comprador.Services.CompradorServices>();
+			builder.Services.AddScoped<Vendedor.Services.VendedorServices>();
 
 			//Repositorios
 			builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+			builder.Services.AddScoped<IRolRepository, RolRepository>();
+			builder.Services.AddScoped<ICompradorRepository, CompradorRepository>();
+			builder.Services.AddScoped<IVendedorRepository, VendedorRepository>();
 
 			//AutoMapper
 			builder.Services.AddAutoMapper(typeof(Mapping));

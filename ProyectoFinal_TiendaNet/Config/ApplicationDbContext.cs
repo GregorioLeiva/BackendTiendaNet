@@ -14,6 +14,10 @@ namespace ProyectoFinal_TiendaNet.Config
 
 		public DbSet<Usuario.Model.Usuario> Usuarios { get; set; } = null!;
 
+		public DbSet<Comprador.Model.Comprador> Compradores { get; set; }
+
+		public DbSet<Vendedor.Model.Vendedor> Vendedores { get; set; }
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Usuario.Model.Usuario>().HasData(

@@ -74,14 +74,6 @@
     <Folder Include="Compra\Model\Dto\" />
     <Folder Include="Compra\Repository\" />
     <Folder Include="Compra\Services\" />
-    <Folder Include="Vendedor\Controller\" />
-    <Folder Include="Vendedor\Model\Dto\" />
-    <Folder Include="Vendedor\Repository\" />
-    <Folder Include="Vendedor\Services\" />
-    <Folder Include="Comprador\Controller\" />
-    <Folder Include="Comprador\Model\Dto\" />
-    <Folder Include="Comprador\Repository\" />
-    <Folder Include="Comprador\Services\" />
   </ItemGroup>
 
 </Project>

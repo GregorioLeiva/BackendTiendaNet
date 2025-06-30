@@ -22,6 +22,85 @@ namespace ProyectoFinal_TiendaNet.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaTienda.Model.CategoriaTienda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TiendaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TiendaId");
+
+                    b.ToTable("CategoriaTienda");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Compra.Model.Compra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CompradorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCompra")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MetodoPagoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CompradorId");
+
+                    b.ToTable("Compra");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DNI")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Compradores");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Rol.Model.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -54,6 +133,45 @@ namespace ProyectoFinal_TiendaNet.Migrations
                             Id = 3,
                             Nombre = "Vendedor"
                         });
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaEliminacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NombreTienda")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PersonalizacionId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("VendedorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VendedorId");
+
+                    b.ToTable("Tienda");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", b =>
@@ -132,6 +250,61 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         });
                 });
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CUIT")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioID");
+
+                    b.ToTable("Vendedores");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaTienda.Model.CategoriaTienda", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", null)
+                        .WithMany("CategoriasTienda")
+                        .HasForeignKey("TiendaId");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Compra.Model.Compra", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", null)
+                        .WithMany("Compras")
+                        .HasForeignKey("CompradorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", null)
+                        .WithMany("Tiendas")
+                        .HasForeignKey("VendedorId");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", b =>
                 {
                     b.HasOne("ProyectoFinal_TiendaNet.Rol.Model.Rol", "Rol")
@@ -141,6 +314,32 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         .IsRequired();
 
                     b.Navigation("Rol");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
+                {
+                    b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>
+                {
+                    b.Navigation("CategoriasTienda");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", b =>
+                {
+                    b.Navigation("Tiendas");
                 });
 #pragma warning restore 612, 618
         }

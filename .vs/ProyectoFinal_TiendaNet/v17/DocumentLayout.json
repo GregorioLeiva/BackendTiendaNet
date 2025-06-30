@@ -3,12 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\migrations\\20250629210131_agregado de roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\migrations\\20250629210131_agregado de roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\utils\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\utils\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\controller\\compradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\controller\\compradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\services\\compradorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\services\\compradorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\controller\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\controller\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\repository\\vendedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\repository\\vendedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\services\\vendedorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\services\\vendedorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\dto\\updatevendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\dto\\updatevendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\dto\\vendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\dto\\vendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\dto\\createvendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\dto\\createvendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\dto\\vendedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\dto\\vendedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\dto\\updatecompradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\dto\\updatecompradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\dto\\compradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\dto\\compradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\dto\\compradoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\dto\\compradoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\dto\\createcompradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\dto\\createcompradordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\migrations\\20250630210218_agregado de entidad comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\migrations\\20250630210218_agregado de entidad comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\repository\\compradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\repository\\compradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\compra\\model\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\compra\\model\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\migrations\\20250629210131_agregado de roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\migrations\\20250629210131_agregado de roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +131,8 @@
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\model\\dto\\createusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\rol\\services\\rolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,24 +143,12 @@
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\rol\\repository\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\usuario\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\usuario\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\proyectofinal_tiendanet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\proyectofinal_tiendanet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\detallecompra\\model\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\detallecompra\\model\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\compra\\model\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\compra\\model\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\categoriaproducto\\model\\categoriaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,20 +163,12 @@
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\carritoproducto\\model\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\utils\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\utils\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\migrations\\20250628203212_primera migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\migrations\\20250628203212_primera migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\utils\\filters\\authoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\producto\\model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\vendedor\\model\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\vendedor\\model\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\tienda\\model\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\tienda\\model\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -153,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\metodopago\\model\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\metodopago\\model\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\comprador\\model\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|solutionrelative:proyectofinal_tiendanet\\comprador\\model\\comprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2F1E4A-3D3C-4627-9113-C0A5D6155B4D}|ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj|c:\\users\\usuario\\source\\repos\\proyectofinal_tiendanet\\proyectofinal_tiendanet\\categoriatienda\\model\\categoriatienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,193 +234,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250629210131_Agregado de Roles.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "VendedorServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Services\\VendedorServices.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Services\\VendedorServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Services\\VendedorServices.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Services\\VendedorServices.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T21:01:32.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateUsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:18:19.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateUsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:19:09.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:18:56.049Z",
+              "WhenOpened": "2025-06-30T22:01:41.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsuariosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowAgAAAAgAAAAAAAAAA==",
+              "Title": "CompradorServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Services\\CompradorServices.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Services\\CompradorServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Services\\CompradorServices.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Services\\CompradorServices.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:18:45.589Z",
+              "WhenOpened": "2025-06-30T20:27:58.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:10:15.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Controller\\UsuarioController.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Controller\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Controller\\UsuarioController.cs",
               "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Controller\\UsuarioController.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAIoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAIoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T19:16:52.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T20:47:44.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T19:44:41.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ROLES.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T20:27:16.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mapping.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T19:44:22.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RolServices.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T20:28:26.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T20:28:12.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "UsuarioServices.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Services\\UsuarioServices.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Services\\UsuarioServices.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Services\\UsuarioServices.cs",
               "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Services\\UsuarioServices.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T19:17:55.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Program.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:10:13.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:14:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Controller\\CompradorController.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Controller\\CompradorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Controller\\CompradorController.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Controller\\CompradorController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAIQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:27:30.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Config\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:44:41.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Config\\Mapping.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:44:22.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VendedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Controller\\VendedorController.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Controller\\VendedorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Controller\\VendedorController.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Controller\\VendedorController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:02:36.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VendedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Repository\\VendedorRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Repository\\VendedorRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Repository\\VendedorRepository.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Repository\\VendedorRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:01:57.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Repository\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Repository\\UsuarioRepository.cs",
@@ -373,7 +394,289 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:11:23.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateVendedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\UpdateVendedorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\UpdateVendedorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\UpdateVendedorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\UpdateVendedorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:04:06.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VendedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:03:22.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateVendedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\CreateVendedorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\CreateVendedorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\CreateVendedorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\CreateVendedorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:03:50.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "VendedoresDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedoresDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedoresDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedoresDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Dto\\VendedoresDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:03:07.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateCompradorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\UpdateCompradorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\UpdateCompradorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\UpdateCompradorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\UpdateCompradorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:42:25.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Comprador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:07:22.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompradoresDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradoresDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradoresDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradoresDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradoresDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:41:29.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateCompradorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CreateCompradorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CreateCompradorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CreateCompradorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CreateCompradorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:41:42.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CompradorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradorDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradorDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradorDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Dto\\CompradorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:41:15.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250630210218_Agregado de entidad Comprador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250630210218_Agregado de entidad Comprador.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Migrations\\20250630210218_Agregado de entidad Comprador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250630210218_Agregado de entidad Comprador.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Migrations\\20250630210218_Agregado de entidad Comprador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:02:19.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CompradorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Repository\\CompradorRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Repository\\CompradorRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Repository\\CompradorRepository.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Repository\\CompradorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:27:44.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250629210131_Agregado de Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Migrations\\20250629210131_Agregado de Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T21:01:32.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsuariosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuariosDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:18:45.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:18:56.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Model\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:10:15.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:06:56.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\UpdateUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:19:09.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Dto\\CreateUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T19:18:19.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Usuario\\Model\\Usuario.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:47:44.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ROLES.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Enums\\ROLES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T20:27:16.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RolServices.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Services\\RolServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T20:28:26.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
+              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Rol\\Repository\\RolRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T20:28:12.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "DetalleCompra.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\DetalleCompra\\Model\\DetalleCompra.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\DetalleCompra\\Model\\DetalleCompra.cs",
@@ -385,19 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Compra\\Model\\Compra.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:06:56.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 37,
               "Title": "CategoriaProducto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\CategoriaProducto\\Model\\CategoriaProducto.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\CategoriaProducto\\Model\\CategoriaProducto.cs",
@@ -409,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 35,
               "Title": "ProyectoFinal_TiendaNet.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj",
@@ -417,12 +708,11 @@
               "RelativeToolTip": "ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-04T20:57:07.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T20:57:07.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 39,
               "Title": "CarritoProducto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\CarritoProducto\\Model\\CarritoProducto.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\CarritoProducto\\Model\\CarritoProducto.cs",
@@ -434,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 38,
               "Title": "Carrito.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Carrito\\Model\\Carrito.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Carrito\\Model\\Carrito.cs",
@@ -446,19 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Utils\\Repository\\Repository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T19:14:07.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 55,
               "Title": "20250628203520_FirstMigration.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250628203520_FirstMigration.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Migrations\\20250628203520_FirstMigration.cs",
@@ -470,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "20250628203212_Primera migracion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Migrations\\20250628203212_Primera migracion.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Migrations\\20250628203212_Primera migracion.cs",
@@ -482,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 41,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\appsettings.json",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\appsettings.json",
@@ -494,19 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Program.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T20:10:13.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 43,
               "Title": "CustomMessage.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Exceptions\\CustomMessage.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Exceptions\\CustomMessage.cs",
@@ -518,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "AuthOperationFilter.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Filters\\AuthOperationFilter.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Filters\\AuthOperationFilter.cs",
@@ -530,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "CustomHttpException.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Exceptions\\CustomHttpException.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Exceptions\\CustomHttpException.cs",
@@ -542,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "EncoderServices.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Utils\\Encoder\\EncoderServices.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Utils\\Encoder\\EncoderServices.cs",
@@ -554,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Auth\\Model\\Login.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Auth\\Model\\Login.cs",
@@ -566,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "LoginResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Auth\\Model\\Dto\\LoginResponseDTO.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Auth\\Model\\Dto\\LoginResponseDTO.cs",
@@ -578,19 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Vendedor.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Vendedor\\Model\\Vendedor.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAABQwA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:11:23.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Admin\\Model\\Admin.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Admin\\Model\\Admin.cs",
@@ -602,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Producto\\Model\\Producto.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Producto\\Model\\Producto.cs",
@@ -614,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "Tienda.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Tienda\\Model\\Tienda.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Tienda\\Model\\Tienda.cs",
@@ -626,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "Plantilla.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Plantilla\\Model\\Plantilla.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Plantilla\\Model\\Plantilla.cs",
@@ -638,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 52,
               "Title": "Personalizacion.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Personalizacion\\Model\\Personalizacion.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Personalizacion\\Model\\Personalizacion.cs",
@@ -650,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "MetodoPago.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\MetodoPago\\Model\\MetodoPago.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\MetodoPago\\Model\\MetodoPago.cs",
@@ -662,19 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Comprador.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
-              "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
-              "RelativeToolTip": "ProyectoFinal_TiendaNet\\Comprador\\Model\\Comprador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABBwBEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:07:22.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
               "Title": "CategoriaTienda.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\ProyectoFinal_TiendaNet\\ProyectoFinal_TiendaNet\\CategoriaTienda\\Model\\CategoriaTienda.cs",
               "RelativeDocumentMoniker": "ProyectoFinal_TiendaNet\\CategoriaTienda\\Model\\CategoriaTienda.cs",

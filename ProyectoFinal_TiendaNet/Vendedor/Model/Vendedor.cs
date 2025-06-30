@@ -1,4 +1,6 @@
-﻿namespace ProyectoFinal_TiendaNet.Vendedor.Model
+﻿using ProyectoFinal_TiendaNet.Usuario.Model;
+
+namespace ProyectoFinal_TiendaNet.Vendedor.Model
 {
     public class Vendedor
     {
@@ -7,6 +9,8 @@
 
 		//Relacion con Usuario
 		public int UsuarioID { get; set; }
+
+		public Usuario.Model.Usuario Usuario { get; set; }
 
 		public int CUIT { get; set; }
 

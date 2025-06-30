@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ProyectoFinal_TiendaNet.Comprador.Model;
 
 namespace ProyectoFinal_TiendaNet.Config
 {
@@ -27,7 +28,13 @@ namespace ProyectoFinal_TiendaNet.Config
 			//CategoriaProducto
 			//CategoriaTienda
 			//Compra
+
 			//Comprador
+			CreateMap<Comprador.Model.Comprador, Comprador.Model.Dto.CompradorDTO>().ReverseMap();
+			CreateMap<Comprador.Model.Comprador, Comprador.Model.Dto.CompradoresDTO>().ReverseMap();
+			CreateMap<Comprador.Model.Comprador, Comprador.Model.Dto.CreateCompradorDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//DetalleCompra
 			//MetodoPago
 			//Personalizacion
@@ -35,6 +42,10 @@ namespace ProyectoFinal_TiendaNet.Config
 			//Producto
 			//Tienda
 			//Vendedor
+			CreateMap<Vendedor.Model.Vendedor, Vendedor.Model.Dto.VendedorDTO>().ReverseMap();
+			CreateMap<Vendedor.Model.Vendedor, Vendedor.Model.Dto.VendedoresDTO>().ReverseMap();
+			CreateMap<Vendedor.Model.Vendedor, Vendedor.Model.Dto.CreateVendedorDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
 		}
 	}
 }

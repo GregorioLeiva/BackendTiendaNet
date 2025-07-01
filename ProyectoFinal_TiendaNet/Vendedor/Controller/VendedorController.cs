@@ -127,7 +127,7 @@ namespace ProyectoFinal_TiendaNet.Vendedor.Controller
 			try
 			{
 				await _vendedorServices.DeleteOneById(id);
-				return Ok(new CustomMessage($"El Comprador con el Id = {id} fue eliminado!"));
+				return Ok(new CustomMessage($"El Vendedor con el Id = {id} fue eliminado!"));
 
 			}
 			catch (CustomHttpException ex)

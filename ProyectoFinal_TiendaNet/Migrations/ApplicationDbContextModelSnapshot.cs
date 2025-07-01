@@ -40,6 +40,23 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.ToTable("Admins");
                 });
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaProducto.Model.CategoriaProducto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CategoriaProductos");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaTienda.Model.CategoriaTienda", b =>
                 {
                     b.Property<int>("Id")
@@ -59,7 +76,7 @@ namespace ProyectoFinal_TiendaNet.Migrations
 
                     b.HasIndex("TiendaId");
 
-                    b.ToTable("CategoriaTienda");
+                    b.ToTable("CategoriaTiendas");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Compra.Model.Compra", b =>
@@ -117,6 +134,89 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Compradores");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.MetodoPago.Model.MetodoPago", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MetodoPagos");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Personalizacion.Model.Personalizacion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BackgroundColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ButtonColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LetterColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TiendaID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TiendaID");
+
+                    b.ToTable("Personalizaciones");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Plantilla.Model.Plantilla", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BackgroundColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ButtonColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LetterColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Plantillas");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Rol.Model.Rol", b =>
@@ -325,6 +425,17 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         .IsRequired();
 
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Personalizacion.Model.Personalizacion", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", "Tienda")
+                        .WithMany()
+                        .HasForeignKey("TiendaID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tienda");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>

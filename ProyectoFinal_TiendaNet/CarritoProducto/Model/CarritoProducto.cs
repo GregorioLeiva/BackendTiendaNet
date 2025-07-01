@@ -1,5 +1,7 @@
 ﻿
 
+using ProyectoFinal_TiendaNet.Producto.Model;
+
 namespace ProyectoFinal_TiendaNet.CarritoProducto.Model
 {
     public class CarritoProducto
@@ -10,6 +12,8 @@ namespace ProyectoFinal_TiendaNet.CarritoProducto.Model
 		//Relacion con la tabla de Carrito
 		public int CarritoId { get; set; }
 
+		public Carrito.Model.Carrito Carrito { get; set; }
+
 		//Relacion con la tabla de Producto
 		public int ProductoId { get; set; }
 
@@ -17,7 +21,11 @@ namespace ProyectoFinal_TiendaNet.CarritoProducto.Model
 
 		public int Cantidad { get; set; }
 		//Derivado
-		public decimal Subtotal { get; set; }
+		public decimal Subtotal { 
+			get {
+				return Producto != null ? Producto.PrecioUnitario * Cantidad : 0;
+			} 
+		}
 
 	}
 }

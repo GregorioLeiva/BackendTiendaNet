@@ -20,6 +20,16 @@ namespace ProyectoFinal_TiendaNet.Config
 
 		public DbSet<Admin.Model.Admin> Admins { get; set; }
 
+		public DbSet<CategoriaProducto.Model.CategoriaProducto> CategoriaProductos { get; set; }
+
+		public DbSet<CategoriaTienda.Model.CategoriaTienda> CategoriaTiendas { get; set; }
+
+		public DbSet<MetodoPago.Model.MetodoPago> MetodoPagos { get; set; }
+
+		public DbSet<Plantilla.Model.Plantilla> Plantillas { get; set; }
+
+		public DbSet<Personalizacion.Model.Personalizacion> Personalizaciones { get; set; }
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Usuario.Model.Usuario>().HasData(

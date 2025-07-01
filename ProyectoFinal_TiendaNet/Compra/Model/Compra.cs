@@ -14,11 +14,15 @@ namespace ProyectoFinal_TiendaNet.Compra.Model
 
 		public int CompradorId { get; set; }
 
-		//Deberia definir los estados en una tabla extra y poner el EstadoId?
+		public Comprador.Model.Comprador Comprador { get; set; }
+
+		//Deberia definir los estados en una tabla extra y poner el EstadoId? [Pendiente, En preparacion, Finalizada, Cancelada]
 		public string Estado { get; set; }
 
 		//Relacion con tabla de MetodoPago
 		public int MetodoPagoId { get; set; }
+
+		public MetodoPago.Model.MetodoPago MetodoPago { get; set; }
 
 		//Propiedad derivada
 		public decimal Total { get {
@@ -27,7 +31,7 @@ namespace ProyectoFinal_TiendaNet.Compra.Model
 				{
 					foreach (var producto in Productos)
 					{
-						total += producto.Precio;
+						total += producto.PrecioUnitario;
 					}
 				}
 				return total;

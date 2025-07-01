@@ -4,8 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ProyectoFinal_TiendaNet.Admin.Repository;
+using ProyectoFinal_TiendaNet.CategoriaProducto.Repository;
+using ProyectoFinal_TiendaNet.CategoriaTienda.Repository;
 using ProyectoFinal_TiendaNet.Comprador.Repository;
 using ProyectoFinal_TiendaNet.Config;
+using ProyectoFinal_TiendaNet.MetodoPago.Repository;
+using ProyectoFinal_TiendaNet.Personalizacion.Repository;
+using ProyectoFinal_TiendaNet.Plantilla.Repository;
 using ProyectoFinal_TiendaNet.Rol.Repository;
 using ProyectoFinal_TiendaNet.Usuario.Repository;
 using ProyectoFinal_TiendaNet.Utils.Encoder;
@@ -54,6 +59,11 @@ namespace ProyectoFinal_TiendaNet
 			builder.Services.AddScoped<Comprador.Services.CompradorServices>();
 			builder.Services.AddScoped<Vendedor.Services.VendedorServices>();
 			builder.Services.AddScoped<Admin.Services.AdminServices>();
+			builder.Services.AddScoped<CategoriaProducto.Services.CategoriaProductoServices>();
+			builder.Services.AddScoped<CategoriaTienda.Services.CategoriaTiendaServices>();
+			builder.Services.AddScoped<MetodoPago.Services.MetodoPagoServices>();
+			builder.Services.AddScoped<Plantilla.Services.PlantillaServices>();
+			builder.Services.AddScoped<Personalizacion.Services.PersonalizacionServices>();
 
 			//Repositorios
 			builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
@@ -61,6 +71,11 @@ namespace ProyectoFinal_TiendaNet
 			builder.Services.AddScoped<ICompradorRepository, CompradorRepository>();
 			builder.Services.AddScoped<IVendedorRepository, VendedorRepository>();
 			builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+			builder.Services.AddScoped<ICategoriaProductoRepository, CategoriaProductoRepository>();
+			builder.Services.AddScoped<ICategoriaTiendaRepository, CategoriaTiendaRepository>();
+			builder.Services.AddScoped<IMetodoPagoRepository, MetodoPagoRepository>();
+			builder.Services.AddScoped<IPlantillaRepository, PlantillaRepository>();
+			builder.Services.AddScoped<IPersonalizacionRepository, PersonalizacionRepository>();
 
 			//AutoMapper
 			builder.Services.AddAutoMapper(typeof(Mapping));

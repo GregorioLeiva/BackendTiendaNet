@@ -25,8 +25,20 @@ namespace ProyectoFinal_TiendaNet.Config
 
 			//Carrito
 			//CarritoProducto
+
+
 			//CategoriaProducto
+			CreateMap<CategoriaProducto.Model.CategoriaProducto, CategoriaProducto.Model.Dto.CategoriaProductoDTO>().ReverseMap();
+			CreateMap<CategoriaProducto.Model.CategoriaProducto, CategoriaProducto.Model.Dto.CategoriasProductoDTO>().ReverseMap();
+			CreateMap<CategoriaProducto.Model.CategoriaProducto, CategoriaProducto.Model.Dto.CreateCategoriaProductoDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//CategoriaTienda
+			CreateMap<CategoriaTienda.Model.CategoriaTienda, CategoriaTienda.Model.Dto.CategoriaTiendaDTO>().ReverseMap();
+			CreateMap<CategoriaTienda.Model.CategoriaTienda, CategoriaTienda.Model.Dto.CategoriasTiendaDTO>().ReverseMap();
+			CreateMap<CategoriaTienda.Model.CategoriaTienda, CategoriaTienda.Model.Dto.CreateCategoriaTiendaDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//Compra
 
 			//Comprador
@@ -36,9 +48,25 @@ namespace ProyectoFinal_TiendaNet.Config
 			//Me falta el Update, Antonio me tenia que recomendar algo
 
 			//DetalleCompra
+
 			//MetodoPago
+			CreateMap<MetodoPago.Model.MetodoPago, MetodoPago.Model.Dto.MetodoPagoDTO>().ReverseMap();
+			CreateMap<MetodoPago.Model.MetodoPago, MetodoPago.Model.Dto.MetodosPagoDTO>().ReverseMap();
+			CreateMap<MetodoPago.Model.MetodoPago, MetodoPago.Model.Dto.CreateMetodoPagoDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//Personalizacion
+			CreateMap<Personalizacion.Model.Personalizacion, Personalizacion.Model.Dto.PersonalizacionDTO>().ReverseMap();
+			CreateMap<Personalizacion.Model.Personalizacion, Personalizacion.Model.Dto.PersonalizacionesDTO>().ReverseMap();
+			CreateMap<Personalizacion.Model.Personalizacion, Personalizacion.Model.Dto.CreatePersonalizacionDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//Plantilla
+			CreateMap<Plantilla.Model.Plantilla, Plantilla.Model.Dto.PlantillaDTO>().ReverseMap();
+			CreateMap<Plantilla.Model.Plantilla, Plantilla.Model.Dto.PlantillasDTO>().ReverseMap();
+			CreateMap<Plantilla.Model.Plantilla, Plantilla.Model.Dto.CreatePlantillaDTO>().ReverseMap();
+			//Me falta el Update, Antonio me tenia que recomendar algo
+
 			//Producto
 			//Tienda
 

@@ -40,10 +40,6 @@
     <Folder Include="CategoriaTienda\Model\Dto\" />
     <Folder Include="CategoriaTienda\Repository\" />
     <Folder Include="CategoriaTienda\Services\" />
-    <Folder Include="Admin\Controller\" />
-    <Folder Include="Admin\Model\Dto\" />
-    <Folder Include="Admin\Repository\" />
-    <Folder Include="Admin\Services\" />
     <Folder Include="Rol\Controller\" />
     <Folder Include="Rol\Model\Dto\" />
     <Folder Include="Plantilla\Controller\" />

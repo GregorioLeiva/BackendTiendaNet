@@ -18,6 +18,8 @@ namespace ProyectoFinal_TiendaNet.Config
 
 		public DbSet<Vendedor.Model.Vendedor> Vendedores { get; set; }
 
+		public DbSet<Admin.Model.Admin> Admins { get; set; }
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Usuario.Model.Usuario>().HasData(

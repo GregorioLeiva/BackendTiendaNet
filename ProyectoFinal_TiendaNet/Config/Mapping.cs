@@ -41,6 +41,13 @@ namespace ProyectoFinal_TiendaNet.Config
 			//Plantilla
 			//Producto
 			//Tienda
+
+			//Admin
+			CreateMap<Admin.Model.Admin, Admin.Model.Dto.AdminDTO>().ReverseMap();
+			CreateMap<Admin.Model.Admin, Admin.Model.Dto.AdminsDTO>().ReverseMap();
+			CreateMap<Admin.Model.Admin, Admin.Model.Dto.CreateAdminDTO>().ReverseMap();
+			
+
 			//Vendedor
 			CreateMap<Vendedor.Model.Vendedor, Vendedor.Model.Dto.VendedorDTO>().ReverseMap();
 			CreateMap<Vendedor.Model.Vendedor, Vendedor.Model.Dto.VendedoresDTO>().ReverseMap();

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProyectoFinal_TiendaNet.Admin.Repository;
 using ProyectoFinal_TiendaNet.Comprador.Repository;
 using ProyectoFinal_TiendaNet.Config;
 using ProyectoFinal_TiendaNet.Rol.Repository;
@@ -52,12 +53,14 @@ namespace ProyectoFinal_TiendaNet
 			builder.Services.AddScoped<Rol.Services.RolServices>();
 			builder.Services.AddScoped<Comprador.Services.CompradorServices>();
 			builder.Services.AddScoped<Vendedor.Services.VendedorServices>();
+			builder.Services.AddScoped<Admin.Services.AdminServices>();
 
 			//Repositorios
 			builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 			builder.Services.AddScoped<IRolRepository, RolRepository>();
 			builder.Services.AddScoped<ICompradorRepository, CompradorRepository>();
 			builder.Services.AddScoped<IVendedorRepository, VendedorRepository>();
+			builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 
 			//AutoMapper
 			builder.Services.AddAutoMapper(typeof(Mapping));

@@ -30,6 +30,18 @@ namespace ProyectoFinal_TiendaNet.Config
 
 		public DbSet<Personalizacion.Model.Personalizacion> Personalizaciones { get; set; }
 
+		public DbSet<Carrito.Model.Carrito> Carritos { get; set; }
+
+		public DbSet<Tienda.Model.Tienda> Tiendas { get; set; }
+
+		public DbSet<Producto.Model.Producto> Productos { get; set; }
+
+		public DbSet<CarritoProducto.Model.CarritoProducto> CarritoProductos { get; set; }
+
+		public DbSet<DetalleCompra.Model.DetalleCompra> DetalleCompras { get; set; }
+
+		public DbSet<Compra.Model.Compra> Compras { get; set; }
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Usuario.Model.Usuario>().HasData(
@@ -73,6 +85,47 @@ namespace ProyectoFinal_TiendaNet.Config
 				new Rol.Model.Rol { Id = 2, Nombre = ROLES.COMPRADOR },
 				new Rol.Model.Rol { Id = 3, Nombre = ROLES.VENDEDOR }
 			);
+
+			modelBuilder.Entity<EstadoTienda.Model.EstadoTienda>().HasData(
+				new EstadoTienda.Model.EstadoTienda { Id = 1, Nombre = ESTADOSTIENDA.ACTIVA },
+				new EstadoTienda.Model.EstadoTienda { Id = 2, Nombre = ESTADOSTIENDA.INACTIVA },
+				new EstadoTienda.Model.EstadoTienda { Id = 3, Nombre = ESTADOSTIENDA.EN_PROCESO_ELIMINACION },
+				new EstadoTienda.Model.EstadoTienda { Id = 4, Nombre = ESTADOSTIENDA.ELIMINADA }
+			);
+
+			modelBuilder.Entity<EstadoCompra.Model.EstadoCompra>().HasData(
+				new EstadoCompra.Model.EstadoCompra { Id = 1, Nombre = ESTADOSCOMPRAS.PENDIENTE },
+				new EstadoCompra.Model.EstadoCompra { Id = 2, Nombre = ESTADOSCOMPRAS.FINALIZADA },
+				new EstadoCompra.Model.EstadoCompra { Id = 3, Nombre = ESTADOSCOMPRAS.CANCELADA },
+				new EstadoCompra.Model.EstadoCompra { Id = 4, Nombre = ESTADOSCOMPRAS.EN_PREPARACION }
+			);
+
+			modelBuilder.Entity<Tienda.Model.Tienda>()
+				.HasOne(t => t.Personalizacion)
+				.WithOne(p => p.Tienda)
+				.HasForeignKey<Tienda.Model.Tienda>(t => t.PersonalizacionId)
+				.OnDelete(DeleteBehavior.Restrict);
+
+			modelBuilder.Entity<Producto.Model.Producto>()
+				.Property(p => p.PrecioUnitario)
+				.HasPrecision(18, 2); // 18 dígitos en total, 2 decimales
+
+			modelBuilder.Entity<Tienda.Model.Tienda>()
+				.HasOne(t => t.Vendedor)
+				.WithMany(v => v.Tiendas)
+				.HasForeignKey(t => t.VendedorId)
+				.OnDelete(DeleteBehavior.Restrict);
+
+
+			modelBuilder.Entity<Vendedor.Model.Vendedor>()
+				.HasOne(v => v.Usuario)
+				.WithMany() // Asumo que Usuario no tiene lista de Vendedores
+				.HasForeignKey(v => v.UsuarioID)
+				.OnDelete(DeleteBehavior.Restrict);
+
+
+
+
 
 
 		}

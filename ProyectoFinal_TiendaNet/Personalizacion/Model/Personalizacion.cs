@@ -21,9 +21,6 @@ namespace ProyectoFinal_TiendaNet.Personalizacion.Model
 
 		public DateTime FechaActualizacion { get; set; }
 
-		//Relacion con la tabla tienda
-		public int TiendaID { get; set; }
-
 		public Tienda.Model.Tienda Tienda { get; set; }
 
 	}

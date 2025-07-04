@@ -40,6 +40,53 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.ToTable("Admins");
                 });
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Carrito.Model.Carrito", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Vacio")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Carritos");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CarritoProducto.Model.CarritoProducto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CarritoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarritoId");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("CarritoProductos");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaProducto.Model.CategoriaProducto", b =>
                 {
                     b.Property<int>("Id")
@@ -52,7 +99,12 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ProductoId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductoId");
 
                     b.ToTable("CategoriaProductos");
                 });
@@ -90,9 +142,11 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.Property<int>("CompradorId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("EstadoCompraId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("FechaCompra")
                         .HasColumnType("datetime2");
@@ -104,7 +158,11 @@ namespace ProyectoFinal_TiendaNet.Migrations
 
                     b.HasIndex("CompradorId");
 
-                    b.ToTable("Compra");
+                    b.HasIndex("EstadoCompraId");
+
+                    b.HasIndex("MetodoPagoId");
+
+                    b.ToTable("Compras");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
@@ -134,6 +192,110 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Compradores");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.DetalleCompra.Model.DetalleCompra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CompraId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CompraId");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("DetalleCompras");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.EstadoCompra.Model.EstadoCompra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EstadoCompra");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nombre = "Pendiente"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nombre = "Finalizada"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nombre = "Cancelada"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nombre = "En preparacion"
+                        });
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.EstadoTienda.Model.EstadoTienda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EstadoTienda");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nombre = "Activa"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nombre = "Inactiva"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Nombre = "En proceso de eliminacion"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nombre = "Eliminada"
+                        });
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.MetodoPago.Model.MetodoPago", b =>
@@ -180,12 +342,7 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TiendaID")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("TiendaID");
 
                     b.ToTable("Personalizaciones");
                 });
@@ -217,6 +374,48 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Plantillas");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Producto.Model.Producto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaModificacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Imagen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreProducto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("PrecioUnitario")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TiendaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TiendaId");
+
+                    b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Rol.Model.Rol", b =>
@@ -265,14 +464,13 @@ namespace ProyectoFinal_TiendaNet.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Estado")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("EstadoTiendaId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("FechaEliminacion")
+                    b.Property<DateTime?>("FechaEliminacion")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("NombreTienda")
@@ -282,14 +480,19 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.Property<int>("PersonalizacionId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("VendedorId")
+                    b.Property<int>("VendedorId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("EstadoTiendaId");
+
+                    b.HasIndex("PersonalizacionId")
+                        .IsUnique();
+
                     b.HasIndex("VendedorId");
 
-                    b.ToTable("Tienda");
+                    b.ToTable("Tiendas");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", b =>
@@ -400,6 +603,43 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.Navigation("Usuario");
                 });
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Carrito.Model.Carrito", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CarritoProducto.Model.CarritoProducto", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Carrito.Model.Carrito", "Carrito")
+                        .WithMany("Productos")
+                        .HasForeignKey("CarritoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.Producto.Model.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Carrito");
+
+                    b.Navigation("Producto");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaProducto.Model.CategoriaProducto", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Producto.Model.Producto", null)
+                        .WithMany("Categorias")
+                        .HasForeignKey("ProductoId");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.CategoriaTienda.Model.CategoriaTienda", b =>
                 {
                     b.HasOne("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", null)
@@ -409,11 +649,29 @@ namespace ProyectoFinal_TiendaNet.Migrations
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Compra.Model.Compra", b =>
                 {
-                    b.HasOne("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", null)
+                    b.HasOne("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", "Comprador")
                         .WithMany("Compras")
                         .HasForeignKey("CompradorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.EstadoCompra.Model.EstadoCompra", "EstadoCompra")
+                        .WithMany()
+                        .HasForeignKey("EstadoCompraId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.MetodoPago.Model.MetodoPago", "MetodoPago")
+                        .WithMany()
+                        .HasForeignKey("MetodoPagoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Comprador");
+
+                    b.Navigation("EstadoCompra");
+
+                    b.Navigation("MetodoPago");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
@@ -427,11 +685,30 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("ProyectoFinal_TiendaNet.Personalizacion.Model.Personalizacion", b =>
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.DetalleCompra.Model.DetalleCompra", b =>
+                {
+                    b.HasOne("ProyectoFinal_TiendaNet.Compra.Model.Compra", "Compra")
+                        .WithMany("Detalles")
+                        .HasForeignKey("CompraId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.Producto.Model.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Compra");
+
+                    b.Navigation("Producto");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Producto.Model.Producto", b =>
                 {
                     b.HasOne("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", "Tienda")
                         .WithMany()
-                        .HasForeignKey("TiendaID")
+                        .HasForeignKey("TiendaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -440,9 +717,29 @@ namespace ProyectoFinal_TiendaNet.Migrations
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>
                 {
-                    b.HasOne("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", null)
+                    b.HasOne("ProyectoFinal_TiendaNet.EstadoTienda.Model.EstadoTienda", "EstadoTienda")
+                        .WithMany()
+                        .HasForeignKey("EstadoTiendaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.Personalizacion.Model.Personalizacion", "Personalizacion")
+                        .WithOne("Tienda")
+                        .HasForeignKey("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", "PersonalizacionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("ProyectoFinal_TiendaNet.Vendedor.Model.Vendedor", "Vendedor")
                         .WithMany("Tiendas")
-                        .HasForeignKey("VendedorId");
+                        .HasForeignKey("VendedorId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("EstadoTienda");
+
+                    b.Navigation("Personalizacion");
+
+                    b.Navigation("Vendedor");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", b =>
@@ -461,15 +758,36 @@ namespace ProyectoFinal_TiendaNet.Migrations
                     b.HasOne("ProyectoFinal_TiendaNet.Usuario.Model.Usuario", "Usuario")
                         .WithMany()
                         .HasForeignKey("UsuarioID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Usuario");
                 });
 
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Carrito.Model.Carrito", b =>
+                {
+                    b.Navigation("Productos");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Compra.Model.Compra", b =>
+                {
+                    b.Navigation("Detalles");
+                });
+
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Comprador.Model.Comprador", b =>
                 {
                     b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Personalizacion.Model.Personalizacion", b =>
+                {
+                    b.Navigation("Tienda")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProyectoFinal_TiendaNet.Producto.Model.Producto", b =>
+                {
+                    b.Navigation("Categorias");
                 });
 
             modelBuilder.Entity("ProyectoFinal_TiendaNet.Tienda.Model.Tienda", b =>

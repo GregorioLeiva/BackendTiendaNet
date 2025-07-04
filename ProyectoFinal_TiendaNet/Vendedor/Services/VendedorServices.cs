@@ -23,7 +23,7 @@ namespace ProyectoFinal_TiendaNet.Vendedor.Services
 		}
 		private async Task<Vendedor.Model.Vendedor> GetOneByIdOrException(int id)
 		{
-			var vendedor = await _vendedorRepository.GetOne(c => c.Id == id);
+			var vendedor = await _vendedorRepository.GetOne(c => c.Id == id, "Usuario");
 			if (vendedor == null)
 			{
 				throw new CustomHttpException($"No se encontro el vendedor con Id = {id}", HttpStatusCode.NotFound);

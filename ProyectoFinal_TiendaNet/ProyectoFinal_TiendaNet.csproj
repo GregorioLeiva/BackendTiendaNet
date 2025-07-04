@@ -21,35 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Auth\Controller\" />
-    <Folder Include="Auth\Services\" />
     <Folder Include="Auth\Repository\" />
-    <Folder Include="Carrito\Controller\" />
-    <Folder Include="Carrito\Model\Dto\" />
-    <Folder Include="Carrito\Repository\" />
-    <Folder Include="Carrito\Services\" />
-    <Folder Include="CarritoProducto\Controller\" />
-    <Folder Include="CarritoProducto\Model\Dto\" />
-    <Folder Include="CarritoProducto\Repository\" />
-    <Folder Include="CarritoProducto\Services\" />
     <Folder Include="Rol\Controller\" />
     <Folder Include="Rol\Model\Dto\" />
-    <Folder Include="Producto\Controller\" />
-    <Folder Include="Producto\Model\Dto\" />
-    <Folder Include="Producto\Repository\" />
-    <Folder Include="Producto\Services\" />
-    <Folder Include="Tienda\Controller\" />
-    <Folder Include="Tienda\Model\Dto\" />
-    <Folder Include="Tienda\Repository\" />
-    <Folder Include="Tienda\Services\" />
-    <Folder Include="DetalleCompra\Controller\" />
-    <Folder Include="DetalleCompra\Model\Dto\" />
-    <Folder Include="DetalleCompra\Repository\" />
-    <Folder Include="DetalleCompra\Services\" />
-    <Folder Include="Compra\Controller\" />
-    <Folder Include="Compra\Model\Dto\" />
-    <Folder Include="Compra\Repository\" />
-    <Folder Include="Compra\Services\" />
   </ItemGroup>
 
 </Project>

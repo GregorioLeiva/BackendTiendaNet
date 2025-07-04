@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoFinal_TiendaNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c9cc6ab93ad14a5dce92bb28859ded9ff96cfff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfc612870d3c09e6ac7abdc7b3fc11a78074164a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoFinal_TiendaNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoFinal_TiendaNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

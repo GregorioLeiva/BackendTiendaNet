@@ -1,12 +1,16 @@
 ﻿
 
 using ProyectoFinal_TiendaNet.Producto.Model;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProyectoFinal_TiendaNet.CarritoProducto.Model
 {
     public class CarritoProducto
     {
 		//Poner que se genera Automáticamente
+		[Key]
+		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public int Id { get; set; }
 
 		//Relacion con la tabla de Carrito
